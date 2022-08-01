@@ -11,12 +11,19 @@
 }
 
 body{
-    background-color: cyan;
+    background-color: limegreen;
+    background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
+    background-position: left  50vw bottom 50vh, left  50vw top 50vh;
+    background-repeat: no-repeat;
 }
 
 .outer{
+    padding: 150px 0 0 0;
     background: inherit;
     display: flex;
+    place-content: center;
+    height: inherit;
+    vertical-align: middle;
 }
 
 .container{
